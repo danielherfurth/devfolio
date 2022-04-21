@@ -5,17 +5,18 @@ module.exports = {
     // Your Name
     name: 'Daniel Herfurth',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Daniel Herfurth | Chemist & Analyst`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `R&D and QC chemist with experience in data analysis`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    // author: `@rfitzio`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/danielherfurth`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    // linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Chemist with a background in R&D and data analysis, with strong Python experience in a wide range of applications.
+     Team player looking for opportunities working with data or software in a dynamic environment.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
