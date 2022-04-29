@@ -20,10 +20,10 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Working with Python and SQL',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A reduced SQL database according to the shown ERD. It uses SQL and Python to query and analyze the data.',
+        link: 'https://github.com/danielherfurth/sql-challenge',
       },
       {
         name: 'ChromeExtensionKit',
