@@ -26,6 +26,31 @@ module.exports = {
           'A reduced SQL database according to the shown ERD. It uses SQL and Python to query and analyze the data.',
         link: 'https://github.com/danielherfurth/sql-challenge',
       },
+        {
+                name: 'Cryptocurrency Analysis via Machine Learning',
+                description:
+                    'A machine-learning model created with Python to analyze and cluster together cryptocurrencies, then plot the data.',
+                link: 'https://github.com/danielherfurth/unsupervised-learning-homework',
+            },
+            {
+                name: 'Pharmaceutical Analysis using Pandas and Matplotlib',
+                description:
+                    'Pandas analysis of drugs\' efficacy, visualized with Pyplot.',
+                link: 'https://github.com/danielherfurth/matplotlib-challenge/blob/master/Pymaceuticals/pymaceuticals.ipynb',
+            },
+            {
+                name: 'Interactive Map Showing the Analysis of Volcanoes',
+                description:
+                    'Create interactive maps using Leaflet with data from OpenStreetMap API. Visualize volcano intensity and depth',
+                link: 'https://github.com/danielherfurth/mapping-web-homework',
+            },
+            {
+                name: 'Excel-to-PDF Conversion Script',
+                description:
+                    'A script to automate batch conversion of .xlsx files to .pdf files.',
+                link: 'https://github.com/danielherfurth/Excel-to-PDF/blob/main/xl_to_pdf.py',
+            },
+
       {
         name: 'ChromeExtensionKit',
         description:
