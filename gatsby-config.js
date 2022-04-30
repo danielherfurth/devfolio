@@ -20,6 +20,7 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+
         name: 'Working with Python and SQL',
         description:
           'A reduced SQL database according to the shown ERD. It uses SQL and Python to query and analyze the data.',
