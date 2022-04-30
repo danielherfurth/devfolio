@@ -33,6 +33,7 @@ module.exports = {
       },
       {
         name: 'Another Cool Project',
+
         description:
           'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
         link: 'https://github.com/RyanFitzgerald/devfolio',
