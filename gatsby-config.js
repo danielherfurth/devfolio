@@ -80,6 +80,7 @@ module.exports = {
                 description: 'MongoDB, PostreSQL, MySQL',
             },
             {
+
                 name: 'Other',
                 description:
                     'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
