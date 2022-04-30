@@ -48,7 +48,7 @@ module.exports = {
                 description:
                     'A script to automate batch conversion of .xlsx files to .pdf files.',
                 link: 'https://github.com/danielherfurth/Excel-to-PDF/blob/main/xl_to_pdf.py',
-            },
+            }
         ],
         // Optional: List your experience, they must have `name` and `description`. `link` is optional.
         experience: [
