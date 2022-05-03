@@ -56,7 +56,7 @@ module.exports = {
         experience: [
             {
                 name: 'Graduate Research Assistant, Stewart Lab',
-                description: 'Small-molecule synthesis and product Analysis.\nMay2021 - Present',
+                description: 'Small-molecule synthesis and product Analysis.<br>May2021 - Present',
                 link: 'https://github.com/RyanFitzgerald/devfolio',
             },
 
