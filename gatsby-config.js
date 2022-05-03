@@ -66,15 +66,17 @@ module.exports = {
             //     link: 'https://github.com/RyanFitzgerald/devfolio',
             // },
             {
-                name: 'Globex Corp',
-                description: 'Full-Stack Developer, December 2017 - February 2020',
+                name: 'ACM Chemistries',
+                description: 'R&D of product from concept to market. Method development and validation for QC of product.' +
+                    'April 2019 - April 2021',
                 link: 'https://github.com/RyanFitzgerald/devfolio',
             },
-            {
-                name: 'Hooli',
-                description: 'Full-Stack Developer, May 2015 - December 2017',
-                link: 'https://github.com/RyanFitzgerald/devfolio',
-            },
+
+            // {
+            //     name: 'Hooli',
+            //     description: 'Full-Stack Developer, May 2015 - December 2017',
+            //     link: 'https://github.com/RyanFitzgerald/devfolio',
+            // },
         ],
         // Optional: List your skills, they must have `name` and `description`.
         skills: [
