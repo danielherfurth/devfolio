@@ -69,35 +69,38 @@ module.exports = {
         experience: [
             {
                 name: 'Graduate Research Assistant, Stewart Lab',
-                description: 'Small-molecule synthesis and product analysis.',
+                description: 'Small-molecule synthesis and product Analysis. ' +
+                    'May2021 - Present',
                 link: 'https://github.com/RyanFitzgerald/devfolio',
             },
             {
-                name: 'Globex Corp',
-                description: 'Full-Stack Developer, December 2017 - February 2020',
+                name: 'ACM Chemistries',
+                description: 'R&D of product from concept to market. Method development and validation for QC of product.' +
+                    'April 2019 - April 2021',
                 link: 'https://github.com/RyanFitzgerald/devfolio',
             },
-            {
-                name: 'Hooli',
-                description: 'Full-Stack Developer, May 2015 - December 2017',
-                link: 'https://github.com/RyanFitzgerald/devfolio',
-            },
+            //
+            // {
+            //     name: 'Hooli',
+            //     description: 'Full-Stack Developer, May 2015 - December 2017',
+            //     link: 'https://github.com/RyanFitzgerald/devfolio',
+            // },
         ],
         // Optional: List your skills, they must have `name` and `description`.
         skills: [
             {
                 name: 'Languages & Frameworks',
                 description:
-                    'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+                    'Python, R, JavaScript',
             },
             {
                 name: 'Databases',
-                description: 'MongoDB, PostreSQL, MySQL',
+                description: 'MongoDB, PostreSQL',
             },
             {
                 name: 'Other',
                 description:
-                    'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+                    'R&D, QA/QC, method development, data visualization, PyCharm, VSCode',
             },
         ],
     },
@@ -163,4 +166,5 @@ module.exports = {
             },
         },
     ],
-};
+}
+;
