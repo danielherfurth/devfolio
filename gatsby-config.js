@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         // Site URL for when it goes live
-        siteUrl: `https://heartfelt-pasca-ec9f2a.netlify.app/`,
+        siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
         // Your Name
         name: 'Daniel Herfurth',
         // Main Site Title
@@ -69,38 +69,31 @@ module.exports = {
         experience: [
             {
                 name: 'Graduate Research Assistant, Stewart Lab',
-                description: 'Small-molecule synthesis and product Analysis.\n' +
+                description: 'Small-molecule synthesis and product Analysis. ' +
                     'May2021 - Present',
-                link: 'https://github.com/danielherfurth',
+                // link: 'https://github.com/RyanFitzgerald/devfolio',
             },
             {
                 name: 'ACM Chemistries',
-                description: 'R&D of product from concept to market. Method development and validation for QC of product.\n' +
-                    'April 2019 - April 2021',
-                link: 'https://github.com/danielherfurth',
+                description: 'R&D of product from concept to market. Method development and validation for QC of product.' +
+                    'April 2019 - April 2021'
             },
-            //
-            // {
-            //     name: 'Hooli',
-            //     description: 'Full-Stack Developer, May 2015 - December 2017',
-            //     link: 'https://github.com/RyanFitzgerald/devfolio',
-            // },
         ],
         // Optional: List your skills, they must have `name` and `description`.
         skills: [
             {
                 name: 'Languages & Frameworks',
                 description:
-                    'Python, R, JavaScript',
+                    'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
             },
             {
                 name: 'Databases',
-                description: 'MongoDB, PostreSQL',
+                description: 'MongoDB, PostreSQL, MySQL',
             },
             {
                 name: 'Other',
                 description:
-                    'R&D, QA/QC, method development, data visualization, PyCharm, VSCode',
+                    'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
             },
         ],
     },
@@ -143,7 +136,6 @@ module.exports = {
                 ],
             },
         },
-
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
         `gatsby-plugin-postcss`,
@@ -167,5 +159,4 @@ module.exports = {
             },
         },
     ],
-}
-;
+};
