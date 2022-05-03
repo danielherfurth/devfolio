@@ -69,15 +69,15 @@ module.exports = {
         experience: [
             {
                 name: 'Graduate Research Assistant, Stewart Lab',
-                description: 'Small-molecule synthesis and product Analysis. ' +
+                description: 'Small-molecule synthesis and product Analysis.\n' +
                     'May2021 - Present',
-                link: 'https://github.com/RyanFitzgerald/devfolio',
+                link: 'https://github.com/danielherfurth',
             },
             {
                 name: 'ACM Chemistries',
-                description: 'R&D of product from concept to market. Method development and validation for QC of product.' +
+                description: 'R&D of product from concept to market. Method development and validation for QC of product.\n' +
                     'April 2019 - April 2021',
-                link: 'https://github.com/RyanFitzgerald/devfolio',
+                link: 'https://github.com/danielherfurth',
             },
             //
             // {
