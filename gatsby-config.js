@@ -55,10 +55,16 @@ module.exports = {
         // Optional: List your experience, they must have `name` and `description`. `link` is optional.
         experience: [
             {
-                name: 'Acme Corp',
-                description: 'Full-Stack Developer, February 2020 - Present',
+                name: 'Graduate Research Assistant, Stewart Lab',
+                description: 'Small-molecule synthesis and product Analysis.\nMay2021 - Present',
                 link: 'https://github.com/RyanFitzgerald/devfolio',
             },
+
+            // {
+            //     name: 'Acme Corp',
+            //     description: 'Full-Stack Developer, February 2020 - Present',
+            //     link: 'https://github.com/RyanFitzgerald/devfolio',
+            // },
             {
                 name: 'Globex Corp',
                 description: 'Full-Stack Developer, December 2017 - February 2020',
