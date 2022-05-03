@@ -26,16 +26,28 @@ module.exports = {
             },
 
             {
-                name: 'ChromeExtensionKit',
+                name: 'Cryptocurrency Analysis via Machine Learning',
                 description:
-                    'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-                link: 'https://chromeextensionkit.com/?ref=devfolio',
+                    'A machine-learning model created with Python to analyze and cluster together cryptocurrencies, then plot the data.',
+                link: 'https://github.com/danielherfurth/unsupervised-learning-homework',
             },
             {
-                name: 'Another Cool Project',
+                name: 'Pharmaceutical Analysis using Pandas and Matplotlib',
                 description:
-                    'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-                link: 'https://github.com/RyanFitzgerald/devfolio',
+                    'Pandas analysis of drugs\' efficacy, visualized with Matplotlib.',
+                link: 'https://github.com/danielherfurth/matplotlib-challenge/blob/master/Pymaceuticals/pymaceuticals.ipynb',
+            },
+            {
+                name: 'Interactive Map Showing the Analysis of Volcanoes',
+                description:
+                    'Create interactive maps using Leaflet with data from OpenStreetMap API. Visualize volcano intensity and depth',
+                link: 'https://github.com/danielherfurth/mapping-web-homework',
+            },
+            {
+                name: 'Excel-to-PDF Conversion Script',
+                description:
+                    'A script to automate batch conversion of .xlsx files to .pdf files.',
+                link: 'https://github.com/danielherfurth/Excel-to-PDF/blob/main/xl_to_pdf.py',
             },
         ],
         // Optional: List your experience, they must have `name` and `description`. `link` is optional.
