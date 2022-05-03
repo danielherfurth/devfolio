@@ -42,8 +42,9 @@ module.exports = {
             {
                 name: 'Interactive Map Showing the Analysis of Volcanoes',
                 description:
-                    'Create interactive maps using Leaflet with data from OpenStreetMap API. Visualize volcano intensity and depth',
-                link: 'https://github.com/danielherfurth/mapping-web-homework',
+                    'Create interactive maps using Leaflet with data from OpenStreetMap API. Visualize volcano intensity and depth.',
+                // link: 'https://github.com/danielherfurth/mapping-web-homework',
+                link: '',
             },
             {
                 name: 'Excel-to-PDF Conversion Script',
