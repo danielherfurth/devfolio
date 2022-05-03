@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         // Site URL for when it goes live
-        siteUrl: `https://heartfelt-pasca-ec9f2a.netlify.app/`,
+        siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
         // Your Name
         name: 'Daniel Herfurth',
         // Main Site Title
@@ -20,6 +20,7 @@ module.exports = {
         // Optional: List your projects, they must have `name` and `description`. `link` is optional.
         projects: [
             {
+
                 name: 'Working with Python and SQL',
                 description:
                     'A reduced SQL database according to the shown ERD. It uses SQL and Python to query and analyze the data.',
@@ -70,13 +71,13 @@ module.exports = {
                 name: 'Graduate Research Assistant, Stewart Lab',
                 description: 'Small-molecule synthesis and product Analysis. ' +
                     'May2021 - Present',
-                link: 'https://github.com/RyanFitzgerald/devfolio',
+                // link: 'https://github.com/RyanFitzgerald/devfolio',
             },
             {
                 name: 'ACM Chemistries',
                 description: 'R&D of product from concept to market. Method development and validation for QC of product.' +
                     'April 2019 - April 2021',
-                link: 'https://github.com/RyanFitzgerald/devfolio',
+                // link: 'https://github.com/RyanFitzgerald/devfolio',
             },
             //
             // {
@@ -166,4 +167,3 @@ module.exports = {
         },
     ],
 };
-
