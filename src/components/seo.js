@@ -1,9 +1,16 @@
-import { Helmet } from 'react-helmet';
-import { useStaticQuery, graphql } from 'gatsby';
-import PropTypes from 'prop-types';
-import React from 'react';
+/**
+ * SEO component that queries for data with
+ *  Gatsby's useStaticQuery React hook
+ *
+ * See: https://www.gatsbyjs.com/docs/use-static-query/
+ */
 
-const SEO = ({ description, lang, meta, title }) => {
+import React from "react"
+import PropTypes from "prop-types"
+import { Helmet } from "react-helmet"
+import { useStaticQuery, graphql } from "gatsby"
+
+function SEO({ description, lang, meta, title }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -16,18 +23,18 @@ const SEO = ({ description, lang, meta, title }) => {
         }
       }
     `
-  );
+  )
 
-  const metaDescription = description || site.siteMetadata.description;
-  const defaultTitle = site.siteMetadata?.title;
-  const finalTitle = title ? `${title} | ${defaultTitle}` : defaultTitle;
+  const metaDescription = description || site.siteMetadata.description
+  const defaultTitle = site.siteMetadata?.title
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={finalTitle}
+      title={title}
+      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
       meta={[
         {
           name: `description`,
@@ -35,7 +42,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:title`,
-          content: finalTitle,
+          content: title,
         },
         {
           property: `og:description`,
@@ -46,37 +53,37 @@ const SEO = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
-          property: `twitter:card`,
+          name: `twitter:card`,
           content: `summary`,
         },
         {
-          property: `twitter:creator`,
+          name: `twitter:creator`,
           content: site.siteMetadata?.author || ``,
         },
         {
-          property: `twitter:title`,
-          content: finalTitle,
+          name: `twitter:title`,
+          content: title,
         },
         {
-          property: `twitter:description`,
+          name: `twitter:description`,
           content: metaDescription,
         },
       ].concat(meta)}
     />
-  );
-};
+  )
+}
 
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
-};
+}
 
 SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string,
-};
+  title: PropTypes.string.isRequired,
+}
 
-export default SEO;
+export default SEO
