@@ -83,16 +83,16 @@ module.exports = {
             {
                 name: 'Languages & Frameworks',
                 description:
-                    'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+                    'Python, R, JavaScript',
             },
             {
                 name: 'Databases',
-                description: 'MongoDB, PostreSQL, MySQL',
+                description: 'MongoDB, PostreSQL',
             },
             {
                 name: 'Other',
                 description:
-                    'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+                    'R&D, QA/QC, method development, data visualization, PyCharm, VSCode',
             },
         ],
     },
