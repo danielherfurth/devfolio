@@ -20,7 +20,6 @@ module.exports = {
         // Optional: List your projects, they must have `name` and `description`. `link` is optional.
         projects: [
             {
-
                 name: 'Working with Python and SQL',
                 description:
                     'A reduced SQL database according to the shown ERD. It uses SQL and Python to query and analyze the data.',
@@ -35,7 +34,7 @@ module.exports = {
             {
                 name: 'Pharmaceutical Analysis using Pandas and Matplotlib',
                 description:
-                    'Pandas analysis of drugs\' efficacy, visualized with Matplotlib.',
+                    'Pandas analysis of drugs\' efficacy, visualized with Pyplot.',
                 link: 'https://github.com/danielherfurth/matplotlib-challenge/blob/master/Pymaceuticals/pymaceuticals.ipynb',
             },
             {
@@ -51,56 +50,53 @@ module.exports = {
                 link: 'https://github.com/danielherfurth/Excel-to-PDF/blob/main/xl_to_pdf.py',
             },
 
-            // {
-            //     name: 'ChromeExtensionKit',
-            //     description:
-            //         'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-            //     link: 'https://chromeextensionkit.com/?ref=devfolio',
-            // },
-            // {
-            //     name: 'Another Cool Project',
-            //
-            //     description:
-            //         'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-            //     link: 'https://github.com/RyanFitzgerald/devfolio',
-            // },
+            {
+                name: 'ChromeExtensionKit',
+                description:
+                    'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
+                link: 'https://chromeextensionkit.com/?ref=devfolio',
+            },
+            {
+                name: 'Another Cool Project',
+
+                description:
+                    'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
+                link: 'https://github.com/RyanFitzgerald/devfolio',
+            },
         ],
         // Optional: List your experience, they must have `name` and `description`. `link` is optional.
         experience: [
             {
-                name: 'Graduate Research Assistant, Stewart Lab',
-                description: 'Small-molecule synthesis and product Analysis. ' +
-                    'May2021 - Present',
+                name: 'Acme Corp',
+                description: 'Full-Stack Developer, February 2020 - Present',
                 link: 'https://github.com/RyanFitzgerald/devfolio',
             },
             {
-                name: 'ACM Chemistries',
-                description: 'R&D of product from concept to market. Method development and validation for QC of product.' +
-                    'April 2019 - April 2021',
+                name: 'Globex Corp',
+                description: 'Full-Stack Developer, December 2017 - February 2020',
                 link: 'https://github.com/RyanFitzgerald/devfolio',
             },
-            //
-            // {
-            //     name: 'Hooli',
-            //     description: 'Full-Stack Developer, May 2015 - December 2017',
-            //     link: 'https://github.com/RyanFitzgerald/devfolio',
-            // },
+            {
+                name: 'Hooli',
+                description: 'Full-Stack Developer, May 2015 - December 2017',
+                link: 'https://github.com/RyanFitzgerald/devfolio',
+            },
         ],
         // Optional: List your skills, they must have `name` and `description`.
         skills: [
             {
                 name: 'Languages & Frameworks',
                 description:
-                    'Python, R, JavaScript',
+                    'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
             },
             {
                 name: 'Databases',
-                description: 'MongoDB, PostreSQL',
+                description: 'MongoDB, PostreSQL, MySQL',
             },
             {
                 name: 'Other',
                 description:
-                    'R&D, QA/QC, method development, data visualization, PyCharm, VSCode',
+                    'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
             },
         ],
     },
