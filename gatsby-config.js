@@ -70,7 +70,7 @@ module.exports = {
             {
                 name: 'Graduate Research Assistant, Stewart Lab',
                 description: 'Small-molecule synthesis and product analysis.',
-                // link: 'https://github.com/RyanFitzgerald/devfolio',
+                link: 'https://github.com/RyanFitzgerald/devfolio',
             },
             {
                 name: 'Globex Corp',
