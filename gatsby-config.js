@@ -67,7 +67,7 @@ module.exports = {
             // },
             {
                 name: 'ACM Chemistries',
-                description: 'R&D of product from concept to market. Method development and validation for QC of product.' +
+                description: 'R&D of product from concept to market. Method development and validation for QC of product. ' +
                     'April 2019 - April 2021',
                 link: 'https://github.com/RyanFitzgerald/devfolio',
             },
