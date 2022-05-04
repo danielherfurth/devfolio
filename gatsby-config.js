@@ -42,7 +42,7 @@ module.exports = {
             {
                 name: 'Interactive Map Showing the Analysis of Earthquakes',
                 description:
-                    'Create interactive maps using Leaflet with data from OpenStreetMap API. Visualize volcano intensity and depth.',
+                    'Create interactive maps using Leaflet with data from OpenStreetMap API. Visualize earthquake intensity and depth.',
                 link: 'https://github.com/danielherfurth/mapping-web-homework',
                 // link: '',
             },
