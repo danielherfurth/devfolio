@@ -43,8 +43,8 @@ module.exports = {
                 name: 'Interactive Map Showing the Analysis of Volcanoes',
                 description:
                     'Create interactive maps using Leaflet with data from OpenStreetMap API. Visualize volcano intensity and depth.',
-                // link: 'https://github.com/danielherfurth/mapping-web-homework',
-                link: '',
+                link: 'https://github.com/danielherfurth/mapping-web-homework',
+                // link: '',
             },
             {
                 name: 'Excel-to-PDF Conversion Script',
@@ -58,7 +58,7 @@ module.exports = {
             {
                 name: 'Graduate Research Assistant, Stewart Lab',
                 description: 'Small-molecule synthesis and product Analysis.\n\nMay2021 - Present',
-                link: 'https://github.com/RyanFitzgerald/devfolio',
+                link: '',
             },
 
             // {
@@ -70,7 +70,7 @@ module.exports = {
                 name: 'ACM Chemistries',
                 description: 'R&D of product from concept to market. Method development and validation for QC of product. ' +
                     'April 2019 - April 2021',
-                link: 'https://github.com/RyanFitzgerald/devfolio',
+                link: '',
             },
 
             // {
