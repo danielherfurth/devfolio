@@ -37,10 +37,10 @@ module.exports = {
                 name: 'Pharmaceutical Analysis using Pandas and Matplotlib',
                 description:
                     'Pandas analysis of drugs\' efficacy, visualized with Matplotlib.',
-                link: 'https://github.com/danielherfurth/matplotlib-challenge/blob/master/Pymaceuticals/pymaceuticals.ipynb',
+                link: 'https://github.com/danielherfurth/matplotlib-challenge',
             },
             {
-                name: 'Interactive Map Showing the Analysis of Volcanoes',
+                name: 'Interactive Map Showing the Analysis of Earthquakes',
                 description:
                     'Create interactive maps using Leaflet with data from OpenStreetMap API. Visualize volcano intensity and depth.',
                 link: 'https://github.com/danielherfurth/mapping-web-homework',
