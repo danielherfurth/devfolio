@@ -36,13 +36,13 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         </h1>
 
 
-        <h2 className={classes.resume}>
+        <h1 className={classes.resume}>
             <a
                 className={classes.link} href={linkedin}
             >
                 Resume
             </a>
-        </h2>
+        </h1>
 
 
         <p className={classes.description}>{metadata.description}</p>
