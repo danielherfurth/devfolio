@@ -10,7 +10,7 @@ const SectionResume = ({resume}) => {
                     <a
                         href="https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"
                     >
-                        <b>Full Resume</b>
+                        Full Resume
                     </a>
                 </p>
             </div>
