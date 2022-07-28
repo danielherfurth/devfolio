@@ -4,7 +4,7 @@ import Section from '../section';
 
 
 const classes = {
-    title: 'pb-6 md:w-full md:max-w-150 md:p-0'
+    title: 'pb-6 md:w-full md:max-w-150 md:p-0 hover:text-black'
 };
 
 
