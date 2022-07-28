@@ -1,19 +1,15 @@
-import React from "react";
+import React from 'react';
 
-import Section from "../section";
-import classes from "../header"
+import Section from '../section';
 
-const SectionResume = ({resume}) => {
-    return (
-        <Section title="Full Resume">
-            <div>
-                <a
-                    href="https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"
-                >
-                </a>
-            </div>
-        </Section>
-    );
+const SectionResume = ({ resume }) => {
+  return (
+    <Section title="Resume">
+      <div className="mb-6">
+        <p>{resume}</p>
+      </div>
+    </Section>
+  );
 };
 
 export default SectionResume;
