@@ -4,17 +4,16 @@ import Section from '../section';
 
 const SectionResume = ({resume}) => {
     return (
-        <Section title="Resume">
-            <div className={classes.contentWrapper}>
+        <div className={classes.wrapper}>
+            <Section title="Resume">
                 <a
-                    className={classes.link}
+                    className={resume}
                     href="https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"
                 >
                     Full Resume
                 </a>
-
-            </div>
-        </Section>
+            </Section>
+        </div>
     );
 };
 
