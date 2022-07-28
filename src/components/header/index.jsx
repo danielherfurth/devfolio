@@ -35,7 +35,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         </h1>
 
 
-        <h2 className={'resume'}>
+        <h2 className={classes.name}>
             <a
                 className={classes.link} href={linkedin}
             >
