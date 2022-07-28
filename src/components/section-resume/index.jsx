@@ -5,14 +5,14 @@ import Section from '../section';
 const SectionResume = ({resume}) => {
     return (
         <Section title="Resume">
-            <div className={classes.name}>
-                <p>
+            <div className={classes.contentWrapper}>
+                <h1 className={classes.name}>
                     <a
                         href="https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"
                     >
                         Full Resume
                     </a>
-                </p>
+                </h1>
             </div>
         </Section>
     );
