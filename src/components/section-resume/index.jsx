@@ -11,14 +11,14 @@ const SectionResume = ({resume}) => {
                 key={res.name}
                 name={res.name}
                 description={res.description()}
-                </>
+                />
             ))}
-            <div>
+
                 <a
                     href="https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"
                 >
                     Full Resume
-                </a></div>
+                </a>
         </Section>
 
     );
