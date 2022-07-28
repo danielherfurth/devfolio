@@ -6,14 +6,13 @@ const SectionResume = ({resume}) => {
     return (
         <Section title="Resume">
             <div className={classes.contentWrapper}>
-                <h1 className={classes.name}>
-                    <a
-                      className={classes.name}
-                      href="https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"
-                    >
-                        Full Resume
-                    </a>
-                </h1>
+                <a
+                    className={classes.link}
+                    href="https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"
+                >
+                    Full Resume
+                </a>
+
             </div>
         </Section>
     );
