@@ -55,7 +55,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           {linkedin && (
             <li className={classes.item}>
               <a className={classes.link} href={linkedin}>
-                LinkedIn
+                Resume
               </a>
             </li>
           )}
