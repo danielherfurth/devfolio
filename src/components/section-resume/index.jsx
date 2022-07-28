@@ -8,7 +8,8 @@ const SectionResume = ({resume}) => {
             <div className={classes.contentWrapper}>
                 <h1 className={classes.name}>
                     <a
-                        href="https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"
+                      className={classes.name}
+                      href="https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"
                     >
                         Full Resume
                     </a>
