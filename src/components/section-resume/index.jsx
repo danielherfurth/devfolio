@@ -13,7 +13,6 @@ const SectionResume = ({resume}) => {
         <div className={classes.title}>
             {/*<Section title="Resume">*/}
                 <a
-                    className={resume}
                     href="https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"
                 >
                     Full Resume
