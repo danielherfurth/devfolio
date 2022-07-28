@@ -13,7 +13,7 @@ module.exports = {
         // Optional: Github account URL
         github: `https://github.com/danielherfurth`,
         // Optional: LinkedIn account URL
-        linkedin: `https://danielherfurth.github.io/DanielHerfurthResume_data.pdf`,
+        resume: `https://danielherfurth.github.io/DanielHerfurthResume_data.pdf`,
         // Content of the About Me section
         about: `Chemist with a background in R&D and data analysis, with strong Python experience in a wide range of applications.
      Team player looking for opportunities working with data or software in a dynamic environment.`,
