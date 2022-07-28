@@ -1,18 +1,24 @@
 import React from 'react';
-import classes from '../header';
+
 import Section from '../section';
+
+
+const classes = {
+    title: 'pb-6 md:w-full md:max-w-150 md:p-0'
+};
+
 
 const SectionResume = ({resume}) => {
     return (
-        <div className={classes.wrapper}>
-            <Section title="Resume">
+        <div className={classes.title}>
+            {/*<Section title="Resume">*/}
                 <a
                     className={resume}
                     href="https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"
                 >
                     Full Resume
                 </a>
-            </Section>
+            {/*</Section>*/}
         </div>
     );
 };
