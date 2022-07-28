@@ -10,15 +10,16 @@ const classes = {
 
 const SectionResume = ({resume}) => {
     return (
-        <div className={classes.title}>
-            {/*<Section title="Resume">*/}
+
+            <Section title="Resume">
+                <div className={classes.title}>
                 <a
                     href="https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"
                 >
                     Full Resume
-                </a>
-            {/*</Section>*/}
-        </div>
+                </a></div>
+            </Section>
+
     );
 };
 
