@@ -6,7 +6,13 @@ const SectionResume = ({ resume }) => {
   return (
     <Section title="Resume">
       <div className="mb-6">
-        <p>{resume}</p>
+        <p>
+            <a
+                href="https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"
+            >
+            "Full Resume"
+            </a>
+        </p>
       </div>
     </Section>
   );
