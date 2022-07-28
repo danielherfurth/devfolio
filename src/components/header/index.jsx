@@ -33,6 +33,17 @@ const Header = ({ metadata = {}, noBlog = false }) => {
         <h1 className={classes.name}>
           <Link to="/">{metadata.name}</Link>
         </h1>
+
+
+        <h2 className={'resume'}>
+            <a
+                className={classes.link} href={linkedin}
+            >
+                Resume
+            </a>
+        </h2>
+
+
         <p className={classes.description}>{metadata.description}</p>
         <ul className={classes.list}>
           {twitter && (
