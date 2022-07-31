@@ -23,9 +23,9 @@ const SectionResume = ({resume}) => {
     <Section title="Resume">
       {resume.map((resume) => (
         <SummaryItem
-          key={resume.name}
-          name={resume.name}
-          description={project.description}
+          key={"Resume"}
+          name={"Resume"}
+          // description={project.description}
           // link={resume.link}
           link={"https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"}
         />
