@@ -25,8 +25,8 @@ const Index = ({data}) => {
         <Layout>
             <SEO/>
             <Header metadata={data.site.siteMetadata} noBlog={noBlog}/>
-            {about && <SectionAbout about={about}/>}
             {resume && <SectionResume resume={resume}/>}
+            {about && <SectionAbout about={about}/>}
             {projects && projects.length && <SectionProjects projects={projects}/>}
             {!noBlog && <SectionBlog posts={posts}/>}
             {experience && experience.length && (
@@ -46,6 +46,7 @@ export const pageQuery = graphql`
         name
         title
         description
+        resume
         about
         author
         github
