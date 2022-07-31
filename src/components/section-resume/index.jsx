@@ -24,7 +24,7 @@ const SectionResume = ({resume}) => {
       {/*{resume.map((resume) => (*/}
         <SummaryItem
           key={"Resume"}
-          name={"Resume"}
+          name={"Full Resume"}
           // description={project.description}
           // link={resume.link}
           link={"https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"}

@@ -50,7 +50,7 @@ export const pageQuery = graphql`
         about
         author
         github
-        resume
+     
         projects {
           name
           description
