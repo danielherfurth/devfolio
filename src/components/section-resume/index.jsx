@@ -4,18 +4,34 @@ import Section from '../section';
 import SummaryItem from "../summary-item";
 
 const SectionResume = ({resume}) => {
-    return (
-        <Section title="Resume">
-            <div className={"mb-6"}>
-                <a
-                    href="https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"
-                >
-                    Full Resume
-                </a>
-        </div>
-        </Section>
+//     return (
+//         <Section title="Resume">
+//             <div className={"mb-6"}>
+//                 <a
+//                     href="https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"
+//                 >
+//                     Full Resume
+//                 </a>
+//         </div>
+//         </Section>
+//
+//     );
+// };
+//       if (!projects.length) return null;
 
-    );
+  return (
+    <Section title="Resume">
+      {resume.map((resume) => (
+        <SummaryItem
+          key={resume.name}
+          name={resume.name}
+          // description={project.description}
+          link={resume.link}
+        />
+      ))}
+    </Section>
+  );
 };
+
 
 export default SectionResume;
