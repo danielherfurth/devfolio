@@ -6,13 +6,13 @@ import SummaryItem from "../summary-item";
 const SectionResume = ({resume}) => {
     return (
         <Section title="Resume">
-            <p>{resume}
+            <div className={"mb-6"}>
                 <a
                     href="https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"
                 >
                     Full Resume
                 </a>
-            </p>
+        </div>
         </Section>
 
     );
