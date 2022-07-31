@@ -25,8 +25,9 @@ const SectionResume = ({resume}) => {
         <SummaryItem
           key={resume.name}
           name={resume.name}
-          // description={project.description}
-          link={resume.link}
+          description={project.description}
+          // link={resume.link}
+          link={"https://danielherfurth.github.io/DanielHerfurthResume_data.pdf"}
         />
       ))}
     </Section>
